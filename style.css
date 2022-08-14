@@ -101,6 +101,7 @@ main {
 
 #tasks .task {
   display: flex;
+  width: 43vw;
   justify-content: space-between;
   background-color: var(--darkest);
   padding: 1rem;
@@ -154,4 +155,10 @@ main {
 
 .task .actions .delete {
   color: crimson;
+}
+
+@media screen and (max-width: 600px) {
+  #tasks .task {
+    width: 80vw;
+  }
 }
