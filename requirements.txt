@@ -1,0 +1,8 @@
+moviepy==1.0.3
+Pillow==10.4.0
+requests==2.32.3
+geopy==2.4.1
+staticmap==0.5.7
+exifread==3.0.0
+numpy==2.0.1
+imageio-ffmpeg==0.5.1
